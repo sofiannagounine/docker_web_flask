@@ -17,5 +17,5 @@ RUN git clone https://github.com/sofiannagounine/docker_web_flask.git
 
 EXPOSE 5000
 
-WORKDIR /home/dev/web_server_flask
+WORKDIR /home/dev/docker_web_flask
 ENTRYPOINT ["python3","hello.py","runserver","-h=0.0.0.0"]
